@@ -9,7 +9,7 @@ module.exports = {
         filename: 'bundle.js' // Necesitamos llamar a mi compilado o a mi bundle de javascript una asignación y un nombre.
     },
     resolve: { // Añadimos una configuración que nos va permitir saber con que archivos vamos a trabajar.
-        extension: ['.js','jsx'] //Le pasamos las extensiones con las que estamos trabajando.
+        extensions: ['.js','.jsx'] //Le pasamos las extensiones con las que estamos trabajando.
     },
     module: { // Creamos un módulo donde vamos a tener las reglas de nuestro proyecto.
         rules: [ 
